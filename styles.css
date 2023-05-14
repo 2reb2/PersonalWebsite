@@ -19,6 +19,7 @@
   min-height: 100dvh;
   width: 100%;
   background-image: url("./img/sea.png");
+  background-color:#147C8A;
   background-size: cover;
   background-position: center;
   display: flex;
