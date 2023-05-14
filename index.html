@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Wesite</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+
+  </header>
+
+  <main>
+    <div class="parent">
+      <!--first page-->
+      <div class="child first">
+        <h1 class="first-line" data-value="Greetings">Greetings</h1>
+        <div class="second-line">Random person from the internet</div>
+      </div>
+
+      <!--second page-->
+      <div class="child second">
+        <div class="container1">
+          <h3>Welcome to <span>my website</span></h3>
+        </div>
+
+        <div class="container2">
+
+          <div class="text1">
+            <div class="block" id="scramble">
+              <div class="line">
+                <div class="word">A</div>
+                <div class="word fancy">Human</div>
+              </div>
+              <div class="line">
+                <div class="word fancy">University</div>
+              </div>
+              <div class="line">
+                <div class="word fancy">Student</div>
+                <div class="word">C:</div>
+              </div>
+              <div class="line">
+                <div class="word">@</div>
+                <div class="word fancy">Sarawak</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="text2">
+            <div class="intro">
+              <p>I'm Rebecca Lai, a UNIMAS student who's majoring in Computer Science. As of 2023, I'm a Year 2 student, anxiously waiting for 2 more years to be free.</p>
+              <p>Some random facts about me: </p>
+              <ul>
+                <li>Currently suffering over Differential Equation and Java.</li>
+                <li>Trying very hard to adopt a health sleeping schedule that doesn't start at 3am.</li>
+                <li>Aspire to be a rock in my next life. Having sentience is hard.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      </div>
+
+      
+
+      <!-- third page -->
+      <div class="child third">
+        <div class="section-center">
+
+        <!--image slider-->
+        <div class="slider-container">
+          <div class="image-container">
+            <img src="img/food.png" alt="image" title="Cherry pie" />
+            <img src="img/laksa no bg.png" alt="image" title="Laksa"/>
+            <img src="img/strawberry cake.png" alt="image" />
+            <img src="img/dinasour onesie levi.png" alt="image" />
+            <img src="img/yng crown.png" alt="image" />
+          </div>
+          <i class="fas fa-angle-double-left btn prev"></i>
+          <i class="fas fa-angle-double-right btn next"></i>
+        </div>
+
+        <!--tab section-->
+        <div class="tabs">
+          <!-- btn container -->
+          <div class="btn-container">
+            <button class="button live" data-id="Drawing">Drawing</button>
+            <button class="button" data-id="Gaming"> Gaming</button>
+            <button class="button" data-id="Sleeping">Sleeping</button>
+          </div>
+          <div class="tabs-content">
+            <div class="content live" id="Drawing">
+              <p>
+                Drawing is my second longest surviving hobby (right after sleeping). I picked up drawing at the age of 11 and did not stop ever since.<br>
+                While I'm not very good at it, I still enjoyed the freedom of being able to add anything onto the empty canvas. <br>
+                The pictures shown on the left are drawn by me.
+              </p>
+            </div>
+            <div class="content" id="Gaming">
+              <p>
+                No I don't play FPS or battle royal games. <br> I'm not even interested in it until I dropped into the rabbit hole of gacha games,
+                after being tempted by the visuals and character designs made by a video game company called Hoyoverse.
+                <br>Recently I'm very into Project Sekai, a rhythm game mainly developed by SEGA.
+              </p>
+
+            </div>
+            <div class="content" id="Sleeping">
+              <p class="poem">When the day has worn me out<br>
+                And my body aches with doubt<br>
+                There is nothing quite as sweet<br>
+                As the comfort of my sleep</p>
+              <p> </p>
+              <p class="source">--Source: chatGPT</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div> 
+      
+
+      <!-- fourth page -->
+      <div class="child fourth" >
+        <div class="container1">
+          <h3 data-value="Thank you for visiting!">Thank you for visiting!</h3>
+        </div>
+
+        <div class="container2">
+          <p>Hope you have a nice day! If you aren't, try <span>this dad joke generator</span>. Maybe it'll make you feel better</p>
+        </div>
+
+        <div class="container3">
+            <p class="joke" id="joke">Dad Joke</p>
+            <button class="button" id="button">Tell me a joke</button>
+        </div>
+        
+      </div>
+
+    </div>
+  </main>
+
+  <footer id="bubble-wrapper">
+    <div class="bubble"></div>
+  </footer>
+  
+  <script src="textHover.js"></script>
+  <script src="imageslide.js"></script>
+  <script src="tab.js"></script>
+  <script src="joke.js"></script>
+  <script src="bubble.js"></script>
+</body>
+</html>
