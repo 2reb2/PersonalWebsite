@@ -18,7 +18,7 @@
 .first{
   min-height: 100dvh;
   width: 100%;
-  background-image: url("../img/sea.png");
+  background-image: url("./img/sea.png");
   background-size: cover;
   background-position: center;
   display: flex;
